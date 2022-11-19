@@ -1,0 +1,9 @@
+version: '3'
+services:
+  redis-server:
+    image: 'redis'
+  node-app:
+    restart: always # restart always
+    build: . # use current directory for Dockerfile to run
+    ports:
+      - "8081:8081" # - in yaml means an array | <local port>:<docker port>
