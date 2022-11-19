@@ -1,18 +1,18 @@
 # Below commands use to run this example, This example is for docker and docker-compose
 
 # Docker build with tag
-docker build -t marlanfer/visits .
+<code>docker build -t marlanfer/visits . </code>
 
 # Docker run using tag and port mapping
 
-docker run -p 8080:8080 marlanfer/visits
+<code>docker run -p 8080:8080 marlanfer/visits</code>
 
 # Docker run image in the background
-docker run -d image
+<code>docker run -d image</code>
 
 # Docker compose - related commands
 
-docker run image -> docker-compose up ( in here we are not mentioning the image name)
+docker run image -> <code>docker-compose up</code> ( in here we are not mentioning the image name)
 
 docker build .
 docker run image 
