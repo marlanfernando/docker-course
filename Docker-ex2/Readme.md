@@ -1,18 +1,20 @@
 # Below commands use to run this example, This example is for docker and docker-compose
 
-# Docker build with tag
-docker build -t marlanfer/visits .
+</line>
 
-# Docker run using tag and port mapping
+## Docker build with tag
+<code>docker build -t marlanfer/visits . </code>
 
-docker run -p 8080:8080 marlanfer/visits
+## Docker run using tag and port mapping
 
-# Docker run image in the background
-docker run -d image
+<code>docker run -p 8080:8080 marlanfer/visits</code>
 
-# Docker compose - related commands
+## Docker run image in the background
+<code>docker run -d image</code>
 
-docker run image -> docker-compose up ( in here we are not mentioning the image name)
+## Docker compose - related commands
+
+docker run image -> <code>docker-compose up</code> ( in here we are not mentioning the image name)
 
 docker build .
 docker run image 
@@ -26,7 +28,7 @@ docker run image
         docker-compose down
 
  
-# Docker restart policies
+## Docker restart policies
     - no -> will not restart
     - always ->  restart always
     - on-failure -> restart on failure
